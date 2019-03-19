@@ -1,0 +1,19 @@
+digraph {
+	11841 -> 5726 [label=0];
+	5726 -> 226 [label=0];
+	226 -> 2914 [label=1];
+	2914 -> 4637 [label=0];
+	4637 -> 1273 [label=0];
+}
+digraph {
+	1 -> 2 [label=1];
+	2 -> 5 [label=1];
+	5 -> 14 [label=1];
+	14 -> 17 [label=1];
+}
+digraph {
+	1 -> 2 [label=1];
+	2 -> 5 [label=1];
+	5 -> 14 [label=1];
+	14 -> 17 [label=1];
+}

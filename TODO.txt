@@ -1,0 +1,24 @@
+1) NACITAT GRAF ZO SUBORU
+	a) Spustenie s 5 argumentami, kde 5-ty je volitelny nazov suboru.
+	   Pokial neni pritomny vypise vysledok na standardny vystup
+	b) FORMAT - ./graph-traverse arg1 arg2 arg3 arg4 arg5
+	   arg1 - subor s definiciou uzlov
+	   arg2 - subor s definiciou hran
+	   arg3 - startovaci uzol
+	   arg4 - cielovy uzol
+	   arg5 - vystupny subor (voliteny argument)
+	c) chybova hlaska pri nespravnom pocte argumentov
+	d) nacitanie suboru s uzlami a pridanie do grafu
+	e) nacitanie suboru s hranmi a pridanie do grafu
+	f) chybova hlaska pri zlyhaniu kroku d) alebo e)
+2) NAJIST NAJKRATSIU CESTU MEDZI DVOMA POZADOVANYMI UZLAMI
+	a) Vyuzitie dijkstrova algoritmu na vyhladanie cesty medzi uzlami
+	b) chybova hlaska pokial jeden z uzlov neexistuje
+	c) chybova hlaska pokial neexistuje cesta medzi zadanymi uzlami
+	d) pokial startovaci a cielovy uzol su totozne vypis formatu z 3a
+	   ale bez hrany
+	   
+3) PRIPADNE ZAPISAT DO SUBORU V GRAPHVIZ JAZYKU PRE REPREZENTACIU GRAFOV
+	a) FORMAT - digraph {
+							„\t%u -> %u [label=%u];\n“
+						}
